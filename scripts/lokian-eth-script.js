@@ -14,8 +14,8 @@ async function main() {
   // await hre.run('compile');
   
   // Polygon mumbai testnet addresses
-  const tokenAddress = '0x2683EbB22FE772dB15C09b99897bD38B2Bf2487E';
-  const nftAddress = '0xC924448D65D0b20629eaAD25eE79bC2911E8690a';
+  const tokenAddress = '0x809243b013975447CD118D4DbfD92b9662a48cdc';
+  const nftAddress = '0x0daB67FE5a157D47117cfBd7d3Bb5131513ce520';
 
   // We get the contract to deploy
   const LokianEth = await hre.ethers.getContractFactory("Cryptomons");
